@@ -11,38 +11,38 @@ function Home() {
             <div className = "home__row">
                <Product
                   id = '12321341'
-                  title = "The lean Startup"
-                  price = {11.96}
+                  title = "AudioTechnica"
+                  price = {11300}
                   rating = {3}
-                  image = "https://images-na.ssl-images-amazon.com/images/I/91iNo-IecrL._UL1500_.jpg"
+                  image = "AudioTechnica.jpg"
                 />
                  <Product
                   id = '12321341'
-                  title = "The lean Startup"
-                  price = {11.96}
+                  title = "jbl flip 3"
+                  price = {5500}
                   rating = {3}
-                  image = "https://images-na.ssl-images-amazon.com/images/I/91iNo-IecrL._UL1500_.jpg"
+                  image = "jbl.jpg"
                 />
             </div>
             <div className = "home__row">
                <Product
                   id = '12321341'
-                  title = "The lean Startup"
-                  price = {11.96}
+                  title = "Zoom h2n"
+                  price = {15000}
                   rating = {3}
-                  image = "https://images-na.ssl-images-amazon.com/images/I/91iNo-IecrL._UL1500_.jpg"
+                  image = "zoom.png"
                 />
                  <Product
                   id = '12321341'
-                  title = "The lean Startup"
-                  price = {11.96}
+                  title = "The Accessory Pack"
+                  price = {3500}
                   rating = {3}
-                  image = "https://images-na.ssl-images-amazon.com/images/I/91iNo-IecrL._UL1500_.jpg"
+                  image = "Accessory.png"
                 />
                   <Product
                   id = '12321341'
-                  title = "The lean Startup"
-                  price = {11.96}
+                  title = "nike T-shirt"
+                  price = {1000}
                   rating = {3}
                   image = "https://images-na.ssl-images-amazon.com/images/I/91iNo-IecrL._UL1500_.jpg"
                 />
@@ -50,10 +50,10 @@ function Home() {
             <div className = "home_row">
                  <Product
                   id = '12321341'
-                  title = "The lean Startup"
-                  price = {11.96}
+                  title = "Laptop"
+                  price = {75000}
                   rating = {3}
-                  image = "https://images-na.ssl-images-amazon.com/images/I/91iNo-IecrL._UL1500_.jpg"
+                  image = "Laptop.jpg"
                 />
             </div>
         </div>
