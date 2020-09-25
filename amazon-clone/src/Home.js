@@ -17,7 +17,7 @@ function Home() {
                   image = "AudioTechnica.jpg"
                 />
                  <Product
-                  id = '12321341'
+                  id = '12321342'
                   title = "jbl flip 3"
                   price = {5500}
                   rating = {3}
@@ -26,21 +26,21 @@ function Home() {
             </div>
             <div className = "home__row">
                <Product
-                  id = '12321341'
+                  id = '12321343'
                   title = "Zoom h2n"
                   price = {15000}
                   rating = {3}
                   image = "zoom.png"
                 />
                  <Product
-                  id = '12321341'
+                  id = '12321344'
                   title = "The Accessory Pack"
                   price = {3500}
                   rating = {3}
                   image = "Accessory.png"
                 />
                   <Product
-                  id = '12321341'
+                  id = '12321345'
                   title = "nike T-shirt"
                   price = {1000}
                   rating = {3}
@@ -49,7 +49,7 @@ function Home() {
             </div>
             <div className = "home_row">
                  <Product
-                  id = '12321341'
+                  id = '12321346'
                   title = "Laptop"
                   price = {75000}
                   rating = {3}
