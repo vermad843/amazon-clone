@@ -7,7 +7,7 @@
 [x] Add to cart functionality(context- API)
 
 
-[x] React-Reouter for multipage non refereshing pages
+[x] React-Router for multipage non refereshing pages
 
 [x] npm install react-router-dom
 
@@ -30,3 +30,11 @@
    1.StateProvider(StateProvider.js file)
    2.index.js (wrap App with StateProvider (pass the initialstate, reducer to StateProvider));
    3.reducer.js (initialState, reducer);
+
+
+[x] Adding Image to the cart and it's details
+    
+    files Added : 
+
+     .checkout.js,css.
+     .checkoutProduct.js,css

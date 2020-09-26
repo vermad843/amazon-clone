@@ -1,5 +1,11 @@
 export const initialState = {
-    basket :[],
+    basket :[
+         { title : "headphone",
+           price : 100,
+           rating : 4,
+           image : "Laptop.jpg"
+       }, 
+    ],
     user : null
 };
 
