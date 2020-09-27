@@ -38,3 +38,6 @@
 
      .checkout.js,css.
      .checkoutProduct.js,css
+
+
+[x] Remove product from cart functionality added
