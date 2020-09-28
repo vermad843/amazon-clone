@@ -2,11 +2,14 @@ import React from 'react';
 import { useStateValue} from './StateProvider';
 import './Checkout.css';
 import CheckoutProduct from './CheckoutProduct';
+import CurrencyFormat from 'react-currency-format';
+import Subtotal from './Subtotal';
 
 function Checkout() {
     const [{basket}] = useStateValue();
     return (
         <div className = "checkout">
+           <div className = "checkout__left">
             <img
                className = "checkout__ad"
                src = "https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Rajeshwari/AugOffers/GW22Aug/DesktopHero_1500x600._CB407658174_.jpg"
@@ -37,8 +40,15 @@ function Checkout() {
                         }
                     </div>
                 )}
+                </div>
+                {basket.length > 0 && (
+                    <div className = "checkout__right">
+                        <Subtotal/>
+                        <h1>Subtotal</h1>
+                    </div>
+                )}
         </div>
-    )
+    );
 }
 
 export default Checkout;

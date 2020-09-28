@@ -41,3 +41,5 @@
 
 
 [x] Remove product from cart functionality added
+
+[x] npm i react-currency-format 
