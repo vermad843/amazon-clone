@@ -1,5 +1,7 @@
-.checkoutProduct__rating {
+.checkoutProduct{
     display : flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
